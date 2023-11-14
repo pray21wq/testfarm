@@ -516,7 +516,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
 end
 _G.Blackleg = true
-while _G.Blackleg do wait
+while _G.Blackleg do wait()
     local args = {
         [1] = "BuyBlackLeg"
     }
